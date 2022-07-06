@@ -2,6 +2,7 @@ require('@4tw/cypress-drag-drop');
 import 'cypress-fill-command';
 import '@testing-library/cypress/add-commands';
 import '@shelex/cypress-allure-plugin';
+import 'cypress-file-upload';
 
 import BasicAssertion from '../pages/BasicAssertions';
 import actions from '../pages/ActionPage';

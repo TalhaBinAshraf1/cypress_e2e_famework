@@ -6,3 +6,4 @@ require('cypress-xpath');
 import 'cypress-wait-until';
 import 'cypress-iframe';
 require('cy-verify-downloads').addCustomCommand();
+require('@shelex/cypress-allure-plugin');
